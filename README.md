@@ -28,4 +28,36 @@ This project involves scraping job listings from Indeed and posting them on a Di
    git clone https://github.com/hisonlin/jobFinderBot.git
    cd jobFinderBot
 
+4. **Install Dependencied**
+Ensure you have Python installed. Then install the required packages:
+
+   ```bash
+   pip install -r requirements.txt
+
+5. **Set Up Environment Variables**
+Create a .env file in the root directory of the project and add the following variables:
+
+   ```bash
+   DISCORD_TOKEN=your_discord_bot_token
+   CHANNEL_ID=your_discord_channel_id
+
+5. **Run the Bot**
+
+   ```bash
+  python jobFinderBot.py
+
+## Usage
+
+- The bot will start and log in to Discord.
+- It will scrape job listings from Indeed for web developers and full-stack developers in Vancouver every 24 hours.
+- It will post the job listings to the specified Discord channel.
+
+## Project Structure
+
+- **jobFinderBot.py**: Main script to run the Discord bot and handle job scraping.
+- **requirements.txt**: List of dependencies required for the project.
+- **.env**: Environment variables for Discord bot token and channel ID.
+
+
+
 
