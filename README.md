@@ -44,7 +44,7 @@ Create a .env file in the root directory of the project and add the following va
 5. **Run the Bot**
 
    ```bash
-  python jobFinderBot.py
+   python jobFinderBot.py
 
 ## Usage
 
