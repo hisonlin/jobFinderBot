@@ -18,10 +18,14 @@ This project involves scraping job listings from Indeed and posting them on a Di
 
 ## Setup Instructions
 
-1. **Clone the Repository**
+1. **Create a New Application and Bot on Discord Developer Portal**
+   
+2. **Invite the Bot to Your Server**
+
+3. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/discord-job-bot.git
-   cd discord-job-bot
+   git clone https://github.com/hisonlin/jobFinderBot.git
+   cd jobFinderBot
 
 
